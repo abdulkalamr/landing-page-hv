@@ -1,0 +1,9 @@
+.l-startband {
+    background-color: #f6f5f7;
+    text-align: center;
+    padding: 8rem 22.5rem 5rem;
+}
+
+.l-startband-heading-1 {
+    @include heading-2;
+}

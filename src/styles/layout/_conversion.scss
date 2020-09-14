@@ -1,0 +1,21 @@
+.l-conversion {
+    background-image: url("/images/Layer 1824.png");
+    background-size: cover;
+    padding: 13rem 0 13rem 14rem;
+}
+
+.l-conversion-left {
+    width: 37rem;    
+}
+
+.l-conversion-heading-1 {
+    @include heading-1;
+}
+
+.l-conversion-heading-2 {
+    @include heading-2;
+}
+
+.l-conversion-paragraph-1 {
+    @include paragraph-1;
+}

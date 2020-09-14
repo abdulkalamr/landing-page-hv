@@ -1,0 +1,16 @@
+.l-act-on-it {
+    padding: 4rem 0 3.6rem;
+    text-align: center;
+}
+
+.l-act-on-it__heading-1 {
+    @include heading-1;
+}
+
+.l-act-on-it__heading-2 {
+    @include heading-2;
+}
+
+.l-act-on-it__paragraph-1 {
+    @include paragraph-1;
+}

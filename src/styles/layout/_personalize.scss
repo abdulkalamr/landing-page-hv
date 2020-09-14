@@ -1,0 +1,51 @@
+.l-personalize {
+    display: flex;
+    font-family: 'Quattrocento Sans', sans-serif;
+    gap: 10rem;
+    margin-top: 4rem;
+    padding: 7rem 3rem 6rem 8rem;
+}
+
+.l-personalize__left {
+    flex-grow: 1;
+    padding-top: 4rem;
+}
+
+.l-personalize__heading-1 {
+    @include heading-1;
+    color: #000;
+}
+
+.l-personalize__heading-2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.l-personalize__heading-2--blue {
+    color: #665fc4;
+}
+
+.l-personalize__para {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.l-personalize__form {
+    width: 100%;
+    display: flex;
+}
+
+.l-personalize__text-input {
+    border: 1px solid #665fc4;
+    color: #7c7c7c;
+    flex-grow: 1;
+    padding: 1.3rem 0 1.3rem 3rem;
+}
+
+.l-personalize__submit {
+    background-color: #665fc4;
+    border: none;
+    color: #fff;
+    padding: 1.5rem 2rem;
+}

@@ -1,0 +1,38 @@
+.refer-unit {
+    box-sizing: border-box;
+    border: 0.1rem solid #cccccc;
+    height: 45rem;
+    padding: 1rem 3.6rem 0 5.4rem;
+    width: 34rem;
+}
+
+.refer-unit-img {
+    display: block;
+    margin: 0 auto 2.8rem;
+}
+
+.refer-unit-heading {
+    color: #f26b5c;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin-bottom: 2.6rem;
+    text-align: center;
+}
+
+.refer-unit-list {
+    @include paragraph-1;
+    list-style: none;
+}
+
+.refer-unit-list__item {
+    margin-bottom: 0.5rem;
+}
+
+.refer-unit-list__item::before {
+    content: "•";
+    color: #f26b5c;
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: -1em;
+    width: 1em;
+}

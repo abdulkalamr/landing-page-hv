@@ -1,0 +1,18 @@
+.start-btn {
+    background-image: -moz-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 100%);
+    background-image: -webkit-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 100%);
+    background-image: -ms-linear-gradient( -20deg, rgb(252,96,118) 0%, rgb(255,154,68) 100%);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+
+.start-btn:hover {
+    cursor: pointer;
+}
+  

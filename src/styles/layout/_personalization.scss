@@ -1,0 +1,47 @@
+.l-personalization {
+    padding: 4.5rem 0 10rem;
+}
+
+.l-personalization-heading-1 {
+    @include heading-2;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.l-personalization-section-1 {
+    display: flex;
+    gap: 13rem;
+    margin-bottom: 10rem;
+    padding: 0 2.4rem 0 15rem;
+}
+
+.l-personalization-section-1-left {
+    flex-grow: 1;
+    padding-top: 8rem;
+}
+
+.l-personalization-section-1-heading-1,
+.l-personalization-section-2-heading-1 {
+    @include heading-1;
+}
+
+.l-personalization-section-1-heading-2,
+.l-personalization-section-2-heading-2 {
+    @include heading-2;
+}
+
+.l-personalization-section-1-para,
+.l-personalization-section-2-para {
+    @include paragraph-1;
+}
+
+.l-personalization-section-2 {
+    display: flex;
+    gap: 8rem;
+    padding: 0 11rem 0 6.5rem;
+}
+
+.l-personalization-section-2-right {
+    flex-grow: 1;
+    padding-top: 9rem;
+}

@@ -1,0 +1,19 @@
+.l-refer {
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding: 6.4rem 8rem 5rem;
+}
+
+.l-refer-heading-1 {
+    @include heading-1;
+    text-align: center;
+}
+
+.l-refer-heading-2 {
+    @include heading-2;
+    text-align: center;
+}
+
+.l-refer__units {
+    display: flex;
+    justify-content: space-between;
+}

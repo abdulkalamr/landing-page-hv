@@ -1,0 +1,18 @@
+.l-customers {
+    padding: 6rem 0 6.8rem;
+    text-align: center;
+}
+
+.l-customers__heading-1 {
+    @include heading-1;
+}
+
+.l-customers__heading-2 {
+    @include heading-2;
+}
+
+.l-customer-brands {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18rem;
+}
