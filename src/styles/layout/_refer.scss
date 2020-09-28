@@ -17,11 +17,15 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 @media (min-width: $big-screen-breakpoint) {
     .l-refer {
         padding: 6.4rem 8rem 5rem;
+    }
+
+    .l-refer__units {
+        justify-content: space-between;
     }
 }

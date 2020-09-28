@@ -2,6 +2,8 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 const sassMiddleware = require('node-sass-middleware')
+const postcssMiddleware = require('postcss-middleware')
+const autoprefixer = require('autoprefixer')
 
 const app = express()
 
@@ -21,6 +23,10 @@ app.use(sassMiddleware({
     debug: true,
     outputStyle: 'compressed'
 }))
+
+app.use('/styles', postcssMiddleware({
+    plugins: [autoprefixer]
+}));
 
 app.use(express.static(publicDirectoryPath))
 

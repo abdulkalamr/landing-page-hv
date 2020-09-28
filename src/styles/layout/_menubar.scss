@@ -5,6 +5,10 @@
     padding: 1rem;
 }
 
+.l-trademark-logo-container {
+    flex-grow: 1;
+}
+
 .l-menus {
     align-items: center;
     color: #050505;
@@ -61,5 +65,9 @@
 
     .l-menus {
         display: flex;
+    }
+
+    .l-trademark-logo-container {
+        flex-grow: 0;
     }
 }
