@@ -1,3 +1,5 @@
+@include color-list(red blue cyan);
+
 .refer-unit {
     box-sizing: border-box;
     border: 0.1rem solid #cccccc;
@@ -12,7 +14,6 @@
 }
 
 .refer-unit-heading {
-    color: #f26b5c;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     margin-bottom: 2.6rem;
@@ -30,7 +31,6 @@
 
 .refer-unit-list__item::before {
     content: "•";
-    color: #f26b5c;
     display: inline-block;
     font-size: 2rem;
     margin-left: -1em;

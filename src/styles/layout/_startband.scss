@@ -1,9 +1,15 @@
 .l-startband {
     background-color: #f6f5f7;
     text-align: center;
-    padding: 8rem 22.5rem 5rem;
+    padding: 5rem 2rem;
 }
 
 .l-startband-heading-1 {
     @include heading-2;
+}
+
+@media (min-width: $big-screen-breakpoint) {
+    .l-startband {
+        padding: 8rem 22.5rem 5rem;
+    }
 }

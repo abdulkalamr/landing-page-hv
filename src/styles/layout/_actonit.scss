@@ -1,5 +1,5 @@
 .l-act-on-it {
-    padding: 4rem 0 3.6rem;
+    padding: 4rem;
     text-align: center;
 }
 
@@ -13,4 +13,8 @@
 
 .l-act-on-it__paragraph-1 {
     @include paragraph-1;
+}
+
+@media (min-width: $big-screen-breakpoint) {
+    padding: 4rem 0 3.6rem;
 }

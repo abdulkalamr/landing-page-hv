@@ -12,7 +12,7 @@
     "nodemon": "2.0.4"
   },
   "scripts": {
-    "dev": "nodemon server.js -e js,hbs,scss",
+    "dev": "nodemon server.js -e js,hbs",
     "start": "node server.js"
   }
 }

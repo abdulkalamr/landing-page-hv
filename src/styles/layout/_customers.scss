@@ -13,6 +13,14 @@
 
 .l-customer-brands {
     display: flex;
-    justify-content: space-between;
-    padding: 0 18rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media (min-width: $big-screen-breakpoint) {
+    .l-customer-brands {
+        flex-direction: row;
+    }
 }

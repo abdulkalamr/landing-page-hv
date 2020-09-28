@@ -1,0 +1,12 @@
+@mixin color-list($colors) {
+    @each $color in $colors {
+        $i: index($colors, $color);
+        .refer-unit:nth-of-type(#{$i}) {
+            .refer-unit-heading,
+            .refer-unit-list__item::before   
+            {
+                color: $color;
+            }
+        }
+    }
+}
