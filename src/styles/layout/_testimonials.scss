@@ -34,15 +34,6 @@
     font-style: italic;
 }
 
-.l-testimonial__statement-left-border {
-    background-color: #02d0d1;
-    left: 52.8rem;
-    height: 24.2rem;
-    position: absolute;
-    top: 25rem;
-    width: 1rem;
-}
-
 @media (min-width: $big-screen-breakpoint) {
     .l-testimonials {
         padding-top: 8rem;
@@ -64,5 +55,14 @@
 
     .l-testimonial__avatar {
         display: inline;
+    }
+
+    .l-testimonial__statement-left-border {
+        background-color: #02d0d1;
+        left: 52.8rem;
+        height: 24.2rem;
+        position: absolute;
+        top: 25rem;
+        width: 1rem;
     }
 }
